@@ -1,0 +1,312 @@
+
+
+/* Eric Meyer CSS reset
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, input, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, textarea, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-----------end of Eric Meyer CSS reset-------------*/
+header{
+	padding: 60px 60px 20px 60px;
+}
+
+nav>ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+  	border-radius: 10px;
+	font-family: lucida sans typewriter, courier new, monospace;
+}
+
+nav>ul>li{
+	display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 5px 10px 5px;
+}
+
+nav>ul>li>a:hover{
+  text-decoration: underline;
+	color: rgb(206, 206, 197);
+	color: rgba(206, 206, 197, .9);
+}
+
+nav>ul>li>a{
+	color: rgb(206, 206, 197);
+	color: rgba(206, 206, 197, .9);
+}
+
+body {
+	font-family: bookman old style, lucida sans typewriter, courier new, monospace;
+	font-size: 125%;
+	line-height: 1.4em;
+	margin: 20px 20%;
+	margin: auto;
+	padding: 20px;
+	background: url(images/songsofthesky2.jpg) center center black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: black;
+	background-position: center;
+  background-size: cover;
+  position: relative;
+	color: rgb(51, 61, 60);
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	color: rgb(51, 61, 60);
+	margin: 20px 10%;
+}
+
+textarea, input[type="text"], input[type="email"]{
+	color: rgb(51, 61, 60);
+	font-family: bookman old style, lucida sans typewriter, courier new, monospace;
+	padding: 8px;
+	margin-top: 8px;
+}
+
+
+article {
+	background-color: rgb(206, 206, 197);
+	background-color: rgba(206, 206, 197, .9);
+	margin: 20px 20%;
+	padding: 30px;
+}
+
+form{
+	margin: 30px 20%;
+}
+li, dl{
+	margin: 20px 10%;
+}
+
+figure{
+	float: right;
+	margin-bottom: 0;
+	margin-top: 0;
+  margin-left: 2.5%;
+  width: 40%;
+  min-width: 105px;
+	font-size: 75%;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-family: lucida sans typewriter, courier new, monospace;
+	color: #eb2a39;
+	font-size: 300%;
+	line-height: 1em;
+	text-align: center;
+	text-shadow: 3px 3px 0 #472336;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: lucida sans typewriter, courier new, monospace;
+	color: #472336;
+	font-size: 200%;
+	line-height: 1em;
+	max-width: 100%;
+}
+
+h3 {
+	font-family: lucida sans typewriter, courier new, monospace;
+	font-size: 125%;
+	color: #6c6b36;
+	line-height: 1em;
+}
+
+i, #regLink{
+	color: #43465f;
+}
+
+
+#regLink:hover {
+  text-decoration: underline;
+}
+.fas{
+	color: rgb(253,155,140);
+	color: rgba(253,155,140,.7);
+}
+a:link {
+  text-decoration: none;
+}
+
+a, #regLink:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+	color: #43465f;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+footer{
+	font-size: 75%;
+	background-color: rgb(253,155,140);
+	background-color: rgba(253,155,140,.7);
+	margin: 20px 20%;
+	padding: 30px;
+}
+
+label{
+	font-family: lucida sans typewriter, courier new, monospace;
+	color: #6c6b36;
+}
+textarea {
+	background-color:rgb(242, 244, 245);
+	border: none;
+	width: 100%;
+	height: auto;
+	font-size: 120%;
+	padding: 8px;
+}
+
+
+button{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	display: flex;
+	padding: 0.5em 1em;
+	border: 0.16em solid #fec25d;
+	margin: auto;
+	box-sizing: border-box;
+	justify-content: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 400;
+	font-size: 120%;
+	color: #543537;
+	background-color: rgb(255, 214, 189);
+	background-color: rgba(255, 214, 189, .5);
+	text-align: center;
+	transition: all 0.15s;
+}
+button:hover{
+	color: #543537;
+	border-color: #5b5045;
+}
+button:active{
+	color:#ffb86b;
+	border-color:#ffb86b;
+}
+@media all and (max-width:30em){
+	button{
+		display:block;
+		margin:0.4em auto;
+}
+}
+
+/* Media Queries */
+/*Mobiles in Portrait mod */
+@media only screen and (max-width: 900px) {
+	header{
+		margin: 10px 5%;
+	  padding: 10px;
+	}
+
+body, form {
+	margin: 10px 5%;
+  padding: 0;
+	font-size: 100%;
+}
+
+h1 {
+	font-size: 150%;
+}
+h2 {
+	text-shadow: none;
+	font-size: 120%;
+}
+h3 {
+	font-size: 100%;
+}
+article {
+	margin: 10px 5%;
+	padding: 20px;
+}
+footer {
+	margin: 10px 5%;
+	padding: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+		figure{
+			float: none;
+			margin-bottom: 5px;
+			margin-top: 15px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		figcaption{
+			display: none;
+		}
+}
