@@ -47,10 +47,10 @@
 	</ul>
     <h3>Blog Posts</h3>
 		<ul>
-			<li>“Diary Foreshadows Conviction for Involvement in the Slave Trade,” <a href="https://blogs.library.duke.edu/rubenstein/2020/06/23/diary-foreshadows-conviction-for-involvement-in-slave-trade/"<i>The Devil's Tale: Dispatches from the David M.Rubenstein Rare Book & Manuscript Library</i></a>, June 23rd, 2020</li>
-			<li>“'The Arm of Justice Cannot—Will Not Sleep': Radical Republicans during Reconstruction in the South”, <a href="https://blogs.library.duke.edu/rubenstein/2020/02/07/the-arm-of-justice-cannot-will-not-sleep-radical-republicans-during-reconstruction-in-the-south/"><i>The Devil's Tale: Dispatches from the David M.Rubenstein Rare Book & Manuscript Library</i></a>, February 7th, 2020</li>
-			<li>“Civil War Letters Grapple with Gender, Interracial Marriage, and Working-Class Life,” <a href="https://blogs.library.duke.edu/rubenstein/2018/06/28/civil-war-letters-grapple-with-gender-interracial-marriage-and-working-class-life/"><i>The Devil's Tale: Dispatches from the David M.Rubenstein Rare Book & Manuscript Library</i></a>, June 28th, 2018</li>
-			<li>“Rob Amberg: Forty Years in Appalachia,” <a href="https://blogs.library.duke.edu/rubenstein/2015/11/10/rob-amberg-forty-years-in-appalachia/"><i>The Devil's Tale: Dispatches from the David M.Rubenstein Rare Book & Manuscript Library</i></a>, November 10th, 2015</li>
+			<li>“Diary Foreshadows Conviction for Involvement in the Slave Trade,” <a href="https://blogs.library.duke.edu/rubenstein/2020/06/23/diary-foreshadows-conviction-for-involvement-in-slave-trade/"><i>The Devil's Tale</i></a>, June 23rd, 2020</li>
+			<li>“'The Arm of Justice Cannot—Will Not Sleep': Radical Republicans during Reconstruction in the South”, <a href="https://blogs.library.duke.edu/rubenstein/2020/02/07/the-arm-of-justice-cannot-will-not-sleep-radical-republicans-during-reconstruction-in-the-south/"><i>The Devil's Tale</i></a>, February 7th, 2020</li>
+			<li>“Civil War Letters Grapple with Gender, Interracial Marriage, and Working-Class Life,” <a href="https://blogs.library.duke.edu/rubenstein/2018/06/28/civil-war-letters-grapple-with-gender-interracial-marriage-and-working-class-life/"><i>The Devil's Tale</i></a>, June 28th, 2018</li>
+			<li>“Rob Amberg: Forty Years in Appalachia,” <a href="https://blogs.library.duke.edu/rubenstein/2015/11/10/rob-amberg-forty-years-in-appalachia/"><i>The Devil's Tale</i></a>, November 10th, 2015</li>
 		</ul>
 	</article>
 
