@@ -1,7 +1,7 @@
 <html>
 <head>
   <title>Exquisite Doors</title>
-  <link rel = "stylesheet" type = "text/css" href = "LPstylesheet.css">
+  <link rel = "stylesheet" type = "text/css" href = "styles/stylesheet.css">
 </head>
 <?php
 	include('includes/header.php');

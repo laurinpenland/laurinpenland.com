@@ -9,7 +9,7 @@ automatically notify contributors of the completed poem*/
 -->
 <head>
   <title>Exquisite Corpse</title>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <?php
 	include('includes/header.php');
