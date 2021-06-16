@@ -50,33 +50,46 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*-----------end of Eric Meyer CSS reset-------------*/
-header{
-	padding: 60px 60px 20px 60px;
+/*----------- End of Eric Meyer CSS reset -------------*/
+
+/*------------------- Header and Nav --------------------*/
+header {
+	/*padding: 60px 60px 20px 60px;*/
+	grid-area: nav;
+	background-color: rgb(66, 70, 94);
+	margin-bottom: 60px;
+	position: sticky;
+	top: 0;
 }
 
 nav>ul {
 	list-style-type: none;
 	text-align: center;
 	margin: 0;
-	padding: 10px;
+	padding: 5px;
 	-moz-border-radius: 10px;
   	-webkit-border-radius: 10px;
   	border-radius: 10px;
-	font-family: lucida sans typewriter, courier new, monospace;
+	font-family: century gothic, lucida sans typewriter, courier new, monospace;
+	/*font-size: 24px;*/
+	text-shadow: 0 3px 2px rgb(7, 2, 2);
 }
 
 nav>ul>li{
 	display: inline-block;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 24px;
+  padding: 5px;
   margin: 10px 5px 10px 5px;
 }
 
-nav>ul>li>a:hover{
-  text-decoration: underline;
+nav>ul>li>a:hover {
+	text-decoration: none;
+	border-bottom: 3px solid;
+	box-shadow: 0 3px 2px -2px rgb(7, 2, 2);
 	color: rgb(206, 206, 197);
 	color: rgba(206, 206, 197, .9);
+	color: rgb(192, 102, 150);
+	padding-bottom: 5px;
 }
 
 nav>ul>li>a{
@@ -84,56 +97,72 @@ nav>ul>li>a{
 	color: rgba(206, 206, 197, .9);
 }
 
+/*------------------ Body and grid -----------------*/
 body {
 	font-family: bookman old style, lucida sans typewriter, courier new, monospace;
 	font-size: 125%;
 	line-height: 1.4em;
-	margin: 20px 20%;
-	margin: auto;
-	padding: 20px;
-	background: url(images/songsofthesky2.jpg) center center black;
+	/*padding: 20px;*/
+	margin: 0;
+	/*background-image: url(../images/songsofthesky2.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-color: black;
 	background-position: center;
   background-size: cover;
-  position: relative;
+  position: relative;*/
 	color: rgb(51, 61, 60);
+	/*background-color: rgb(209,66,66);*/
+	background-color: black;
+
 }
 
+.writer {
+	background-color: rgb(209,66,66);
+}
+.writer, .web-developer, .exquisite-corpse {
+	display: grid;
+	grid-template-rows: 20px [nav begins] auto [main begins] 675px auto [footer begins] auto;
+	grid-template-columns: 3fr 50% .75fr;
+	grid-template-areas: ". . ."
+											 ". nav ."
+											 "name main ."
+											 ". main ."
+											 ". footer ."
+
+}
+
+.web-developer {
+	background-color: rgb(91,75,164);
+}
+
+
+
+.about {
+	display: grid;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -5;
+	grid-template-rows: 20px auto auto auto auto;
+	grid-template-columns: 3fr 50% .75fr;
+	grid-template-areas: ". . ."
+											 ". nav ."
+											 "name main ."
+											 ". main ."
+											 ". footer ."
+}
+.about {
+	background-image: url(../images/songsofthesky2.jpg);
+}
+
+
+/*----------------- Images ------------------------*/
 img{
 	max-width: 100%;
 	height: auto;
 }
 
-p {
-	color: rgb(51, 61, 60);
-	margin: 20px 10%;
-}
-
-textarea, input[type="text"], input[type="email"]{
-	color: rgb(51, 61, 60);
-	font-family: bookman old style, lucida sans typewriter, courier new, monospace;
-	padding: 8px;
-	margin-top: 8px;
-}
-
-
-article {
-	background-color: rgb(206, 206, 197);
-	background-color: rgba(206, 206, 197, .9);
-	margin: 20px 20%;
-	padding: 30px;
-}
-
-form{
-	margin: 30px 20%;
-}
-li, dl{
-	margin: 20px 10%;
-}
-
-figure{
+figure {
 	float: right;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -144,21 +173,159 @@ figure{
 	text-align: center;
 }
 
-img{
-	max-width: 100%;
+.writer-image {
+	background-image: url(../images/typewriterclouds_small.jpg);
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+  /*background-size: 100% 100%;*/
+	background-size: cover;
+}
+
+.exquisite-corpse-image {
+	background-image: url(../images/MovementHand.jpg);
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.exquisite-corpse {
+	background-color: #42D1D1;
+}
+
+.web-developer-image {
+	background-image: url(../images/stieglitzequivalents-small.jpg);
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.computer-image {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.portfolio-image {
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	float: none;
+}
+
+.portfolio-image > figcaption {
+	line-height: 1.5em;
+	text-align: left;
+	margin: 10px 20px;
+	font-size: 12px;
+	width: 90%;
+}
+
+/*---------------- Form ----------------------------*/
+
+.error {
+	color: #eb2a39;
+}
+
+blockquote {
+	margin: 20px 10%;
+}
+
+textarea, input[type="text"], input[type="email"]{
+	color: rgb(51, 61, 60);
+	font-family: bookman old style, lucida sans typewriter, courier new, monospace;
+	padding: 8px;
+	margin-top: 8px;
+}
+
+form {
+	margin: 30px 20%;
+}
+
+label {
+	font-family: lucida sans typewriter, courier new, monospace;
+	color: #6c6b36;
+}
+
+textarea {
+	background-color:rgb(242, 244, 245);
+	border: none;
+	width: 100%;
 	height: auto;
+	font-size: 120%;
+	padding: 8px;
+}
+
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	display: flex;
+	padding: 0.5em 1em;
+	border: 0.16em solid #fec25d;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+	justify-content: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 400;
+	font-size: 120%;
+	color: #543537;
+	background-color: rgb(255, 214, 189);
+	background-color: rgba(255, 214, 189, .5);
+	text-align: center;
+	transition: all 0.15s;
+}
+button:hover {
+	color: #543537;
+	border-color: #5b5045;
+}
+button:active {
+	color:#ffb86b;
+	border-color:#ffb86b;
+}
+/*------------------ Paragragh, article, headlines ------------------*/
+
+p {
+	color: rgb(51, 61, 60);
+	margin: 20px 10%;
+}
+
+article {
+	background-color: rgb(206, 206, 197);
+	background-color: rgba(206, 206, 197, .9);
+	/*margin: 20px 20%;*/
+	padding: 30px;
+	grid-area: main;
 }
 
 h1 {
-	font-family: lucida sans typewriter, courier new, monospace;
+	font-family: Haettenschweiler, lucida sans typewriter, courier new, monospace;
 	color: #eb2a39;
-	font-size: 300%;
+	font-size: 75px;
 	line-height: 1em;
-	text-align: center;
+	/*text-align: center;*/
 	text-shadow: 3px 3px 0 #472336;
-	margin-top: 10px;
+	/*margin-top: 10px;
 	margin-bottom: 10px;
-	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;*/
+	/*text-transform: uppercase;*/
 }
 
 h2 {
@@ -176,10 +343,35 @@ h3 {
 	line-height: 1em;
 }
 
-i, #regLink{
+.name {
+	grid-area: name;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	z-index: 100;
+}
+
+.web-developer-name > h1{
+	color: rgb(223,57,113);
+	z-index: 999;
+	transform: rotate(-5deg);
+	line-height: .7em;
+}
+
+.web-developer-name {
+	margin-top: 15%;
+	margin-left: 45%;
+}
+
+/*------------------------ Links -----------------------*/
+
+i, #regLink, a {
 	color: #43465f;
 }
 
+li, dl {
+	margin: 20px 10%;
+}
 
 #regLink:hover {
   text-decoration: underline;
@@ -187,6 +379,7 @@ i, #regLink{
 .fas{
 	color: rgb(253,155,140);
 	color: rgba(253,155,140,.7);
+	color: rgb(209, 66, 66);
 }
 a:link {
   text-decoration: none;
@@ -205,108 +398,105 @@ a:active {
   text-decoration: underline;
 }
 
+/*--------------------------- Footer ---------------------------*/
+
 footer{
 	font-size: 75%;
 	background-color: rgb(253,155,140);
 	background-color: rgba(253,155,140,.7);
-	margin: 20px 20%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	padding: 30px;
+	grid-area: footer;
 }
 
-label{
-	font-family: lucida sans typewriter, courier new, monospace;
-	color: #6c6b36;
-}
-textarea {
-	background-color:rgb(242, 244, 245);
-	border: none;
-	width: 100%;
-	height: auto;
-	font-size: 120%;
-	padding: 8px;
-}
+/*----------------------- Media queries ---------------------------*/
 
-
-button{
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	display: flex;
-	padding: 0.5em 1em;
-	border: 0.16em solid #fec25d;
-	margin: auto;
-	box-sizing: border-box;
-	justify-content: center;
-	text-decoration: none;
-	text-transform: lowercase;
-	font-family: 'Roboto',sans-serif;
-	font-weight: 400;
-	font-size: 120%;
-	color: #543537;
-	background-color: rgb(255, 214, 189);
-	background-color: rgba(255, 214, 189, .5);
-	text-align: center;
-	transition: all 0.15s;
-}
-button:hover{
-	color: #543537;
-	border-color: #5b5045;
-}
-button:active{
-	color:#ffb86b;
-	border-color:#ffb86b;
-}
 @media all and (max-width:30em){
-	button{
+	button {
 		display:block;
 		margin:0.4em auto;
-}
+	}
 }
 
-/* Media Queries */
-/*Mobiles in Portrait mod */
-@media only screen and (max-width: 900px) {
-	header{
-		margin: 10px 5%;
+@media only screen and (min-width: 1250px) {
+	body {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.web-developer-name > h1 {
+		font-size: 50px;
+	}
+}
+
+
+@media only screen and (max-width: 800px) {
+	.writer, .web-developer, .exquisite-corpse, .about {
+		display: inline-block;
+	}
+	header {
+		margin: 10px 10%;
 	  padding: 10px;
 	}
 
-body, form {
-	margin: 10px 5%;
-  padding: 0;
-	font-size: 100%;
-}
-
-h1 {
-	font-size: 150%;
-}
-h2 {
-	text-shadow: none;
-	font-size: 120%;
-}
-h3 {
-	font-size: 100%;
-}
-article {
-	margin: 10px 5%;
-	padding: 20px;
-}
-footer {
-	margin: 10px 5%;
-	padding: 20px;
+	.name {
+		display: none;
 	}
 
+	.computer-image {
+		display: none;
+	}
+
+	body, form {
+  	padding: 0;
+		font-size: 100%;
+	}
+
+	body {
+		margin: 0;
+	}
+
+	form {
+		margin: 10px 5%;
+	}
+
+	h1 {
+		font-size: 150%;
+	}
+	h2 {
+		text-shadow: none;
+		font-size: 120%;
+	}
+	h3 {
+		font-size: 100%;
+	}
+	article, footer {
+		margin: 10px 10%;
+		padding: 20px;
+	}
 }
 
+@media only screen and (max-width: 650px) {
+	figure {
+		display: block;
+		float: none;
+		width: auto;
+		margin-top: 20px;
+		margin-left: none;
+	}
+}
 @media only screen and (max-width: 320px) {
 
-		figure{
+		figure {
 			float: none;
 			margin-bottom: 5px;
 			margin-top: 15px;
 			margin-left: auto;
 			margin-right: auto;
 		}
-		figcaption{
+		figcaption {
 			display: none;
 		}
 }
