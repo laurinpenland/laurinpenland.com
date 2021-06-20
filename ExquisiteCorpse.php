@@ -1,4 +1,7 @@
 <?php
+//create variables for database object
+include('includes/db.php');
+
 $action = filter_input(INPUT_POST, 'action');
 $error_message = "";
 if ($action == "addLine") {
@@ -26,13 +29,30 @@ if ($action == "addLine") {
       throw new Exception("Oops, check your math.");
     }
 
-    $eD = fopen('ED.txt', 'a');
-    fwrite($eD, "\n".$nextLine);
-    fclose($eD);
+    //https://www.w3schools.com/php/php_mysql_insert.asp
+    try {
+      $conn = new PDO(DSN, USERNAME, PASSWORD);
+      // set the PDO error mode to exception
+      $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      $sql = "INSERT INTO user_info (email, name, subscribe, next_line)
+      VALUES (:email, :name, :subscribe, :next_line)";
+      // use exec() because no results are returned
+      $statement = $conn->prepare($sql);
+      $statement->bindValue(':email', $email);
+      $statement->bindValue(':name', $name);
+      $statement->bindValue(':subscribe', $subscribe);
+      $statement->bindValue(':next_line', $nextLine);
+      $statement->execute();
+      /*$statement->closeCursor();*/
+      //echo "New record created successfully";
+    }  catch(PDOException $e) {
+      echo $sql . "<br>" . $e->getMessage();
+    }
 
-    $contact = fopen('EDcontact.txt', 'a');
-    fwrite($contact, "\n".$name.", ".$email.", ".$subscribe);
-    fclose($contact);
+    $conn = null;
+
+
+
   }
   catch (Exception $e) {
     $error_message = $e->getMessage();
@@ -86,39 +106,56 @@ automatically notify contributors of the completed poem*/
   <h3>The line that came before:</h3>
   <p>
     <?php
-    $lines = file('ED.txt');
-    $lastLine = array_pop($lines);
+    try {
+      $conn = new PDO(DSN, USERNAME, PASSWORD);
+      // set the PDO error mode to exception
+      $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      $sql = "SELECT * FROM user_info
+              ORDER BY id DESC LIMIT 1";
+
+      $statement = $conn->prepare($sql);
+      $statement->execute();
+      $lastEntry = $statement->fetch();
+
+    }  catch(PDOException $e) {
+      echo $sql . "<br>" . $e->getMessage();
+    }
+
+    $conn = null;
+
+
+    $lastLine = $lastEntry[4];
     echo htmlspecialchars($lastLine);
     ?>
   </p>
 
 
       <form name="ecForm" method="post">
-        <label>
+        <label for="nextLine">
           Next Line (your line, required):
         </label>
         <br />
-        <textarea name="nextLine" max-length="1000" required><?php echo $nextLine;?></textarea>
+        <textarea name="nextLine" id="nextLine" max-length="1000" required><?php echo $nextLine;?></textarea>
         <br /><br />
 
-        <label>
+        <label for>
           Name or Pseudonym (optional):<br />
-          <input type="text" name="name" value="<?php echo $name;?>">
+          <input type="text" name="name" id="name" value="<?php echo $name;?>">
         </label>
         <br /><br />
-        <label>
+        <label for="email">
           Email (optional):<br />
-          <input type="email" name="email" value="<?php echo $email;?>">
+          <input type="email" name="email" id="email" value="<?php echo $email;?>">
         </label>
         <br /><br />
-        <label>
-          <input type="checkbox" name="subscribe" <?php if ($subscribe == 1) echo "checked";?>>
+        <label for="subscribe">
+          <input type="checkbox" name="subscribe" id="subscribe"<?php if ($subscribe == 1) echo "checked";?>>
           I would like to be emailed the prose poem whenever it is completed, which may take a while.
         </label>
-        <label>
+        <label for="math">
           <br /><br />
           What is 3+4? (required, this is to confirm that you're not a robot):
-          <input type="text" name="math" required value="<?php echo $math;?>">
+          <input type="text" name="math" id="math" required value="<?php echo $math;?>">
 
         <?php
           if ($error_message) {
