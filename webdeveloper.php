@@ -41,7 +41,7 @@
 	<p><a href="https://github.com/laurinpenland/archival-supplies">View the repository on Github.</a></p>
 	<figure class="portfolio-image"></a>
 	<a href= "https://github.com/laurinpenland/finding-family-duke-archives" target="_blank">
-	<img src="./images/findingfamily.jpg" class="portfolio-image" alt="home page for Finding Family in Duke Archives website"/>
+	<img src="./images/FindingFamily.jpg" class="portfolio-image" alt="home page for Finding Family in Duke Archives website"/>
 	</a>
 	<figcaption>Website that helps researchers find family members in the archives at Duke.</figcaption>
 </figure>

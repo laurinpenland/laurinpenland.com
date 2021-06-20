@@ -86,7 +86,7 @@ add info to database
 <!--if the form is empty, or the user hasn't hit submit, display the instructions>-->
 <?php if (!$action OR $error_message) { ?>
 
-  <article>
+  <article class= "article-exquisite-corpse">
     <h2>Let's Build a Poem</h2>
     <p>Send me a line, and I'll add it to a collective poem. We'll follow the rules of an old parlour game called "Exquisite Corpse," which was invented by surrealists in the 1920s.</p>
     <h3>What is an Exquisite Corpse Poem?</h3>
@@ -152,7 +152,7 @@ add info to database
         </label>
         <label for="math">
           <br /><br />
-          What is 3+4? (required, this is to confirm that you're not a robot):
+          What is 3+4? (required, to confirm that you're not a robot):
           <input type="text" name="math" id="math" required value="<?php echo $math;?>">
 
         <?php
