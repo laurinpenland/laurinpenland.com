@@ -36,15 +36,13 @@ if ($action == "addLine") {
       $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $sql = "INSERT INTO user_info (email, name, subscribe, next_line)
       VALUES (:email, :name, :subscribe, :next_line)";
-      // use exec() because no results are returned
       $statement = $conn->prepare($sql);
       $statement->bindValue(':email', $email);
       $statement->bindValue(':name', $name);
       $statement->bindValue(':subscribe', $subscribe);
       $statement->bindValue(':next_line', $nextLine);
       $statement->execute();
-      /*$statement->closeCursor();*/
-      //echo "New record created successfully";
+
     }  catch(PDOException $e) {
       echo $sql . "<br>" . $e->getMessage();
     }
@@ -64,16 +62,16 @@ if ($action == "addLine") {
 <html lang="en">
 <!--Algorithm for exquisite corpse web exercise:
 give user opening line of text
-ask them for the line they would like to have
+ask them for the line they would like to add
 ask user if they would like for me to share the completed poem/story with them
 if yes, get their email address, add it to a list
-once I've received 10 lines, start a new document with new poem/story
-automatically notify contributors of the completed poem*/
+add info to database
 -->
 <head>
   <title>Exquisite Corpse</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Exquisite corpse poem." />
   <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 
@@ -135,7 +133,7 @@ automatically notify contributors of the completed poem*/
           Next Line (your line, required):
         </label>
         <br />
-        <textarea name="nextLine" id="nextLine" max-length="1000" required><?php echo $nextLine;?></textarea>
+        <textarea name="nextLine" id="nextLine" rows= "5" max-length="1000" required><?php echo $nextLine;?></textarea>
         <br /><br />
 
         <label for>

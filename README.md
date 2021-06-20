@@ -8,4 +8,6 @@ Things I would like to improve:
 3) Improve portfolio section.
 4) Make the form more attractive and make it easier for the user to see any input errors.
 5) Create favicon and/or logo.
-6) Update meta tags
+6) Update meta tags.
+7) Finesse media queries.
+8) Make sure all of my images have alt tags.
