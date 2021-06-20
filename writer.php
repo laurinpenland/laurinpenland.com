@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Artist website of Laurin Penland, queer writer from Appalachia, living in Durham, North Carolina." />
+		<meta name="description" content="Writer bio and list of publications for Laurin Penland, queer writer from Appalachia." />
 		<title>Laurin Penland</title>
 
     	<link href="styles/stylesheet.css" type="text/css" rel="stylesheet" />
