@@ -70,7 +70,7 @@ nav>ul {
 	-moz-border-radius: 10px;
   	-webkit-border-radius: 10px;
   	border-radius: 10px;
-	font-family: century gothic, lucida sans typewriter, courier new, monospace;
+	font-family: century gothic, helvetica new, sans-serif;
 	/*font-size: 24px;*/
 	text-shadow: 0 3px 2px rgb(7, 2, 2);
 }
@@ -99,7 +99,7 @@ nav>ul>li>a{
 
 /*------------------ Body and grid -----------------*/
 body {
-	font-family: bookman old style, lucida sans typewriter, courier new, monospace;
+	font-family: bookman old style, georgia, sans-serif;
 	font-size: 125%;
 	line-height: 1.4em;
 	/*padding: 20px;*/
@@ -246,13 +246,14 @@ blockquote {
 
 textarea, input[type="text"], input[type="email"]{
 	color: rgb(51, 61, 60);
-	font-family: bookman old style, lucida sans typewriter, courier new, monospace;
+	font-family: bookman old style, georgia, sans-serif;
 	padding: 8px;
 	margin-top: 8px;
+	width: 100%;
 }
 
 form {
-	margin: 30px 20%;
+	margin: 30px 10%;
 }
 
 label {
@@ -315,7 +316,7 @@ article {
 }
 
 h1 {
-	font-family: Haettenschweiler, lucida sans typewriter, courier new, monospace;
+	font-family: Haettenschweiler, impact, georgia, sans-serif;
 	color: #eb2a39;
 	font-size: 75px;
 	line-height: 1em;
@@ -329,7 +330,7 @@ h1 {
 }
 
 h2 {
-	font-family: lucida sans typewriter, courier new, monospace;
+	font-family: helvetica new, sans-serif;
 	color: #472336;
 	font-size: 200%;
 	line-height: 1em;
@@ -337,7 +338,7 @@ h2 {
 }
 
 h3 {
-	font-family: lucida sans typewriter, courier new, monospace;
+	font-family: helvetica new, sans-serif;
 	font-size: 125%;
 	color: #6c6b36;
 	line-height: 1em;
@@ -356,6 +357,7 @@ h3 {
 	z-index: 999;
 	transform: rotate(-5deg);
 	line-height: .7em;
+	font-size: 50px;
 }
 
 .web-developer-name {
