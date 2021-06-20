@@ -257,7 +257,7 @@ form {
 }
 
 label {
-	font-family: lucida sans typewriter, courier new, monospace;
+	font-family: helvetica new, sans-serif;
 	color: #6c6b36;
 }
 
@@ -315,6 +315,10 @@ article {
 	grid-area: main;
 }
 
+.article-exquisite-corpse {
+	background-color: rgb(206, 206, 197, .95);
+}
+
 h1 {
 	font-family: Haettenschweiler, impact, georgia, sans-serif;
 	color: #eb2a39;
@@ -361,8 +365,8 @@ h3 {
 }
 
 .web-developer-name {
-	margin-top: 15%;
-	margin-left: 45%;
+	margin-top: 20%;
+	margin-left: 47%;
 }
 
 /*------------------------ Links -----------------------*/
