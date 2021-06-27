@@ -54,7 +54,6 @@ table {
 
 /*------------------- Header and Nav --------------------*/
 header {
-	/*padding: 60px 60px 20px 60px;*/
 	grid-area: nav;
 	background-color: rgb(66, 70, 94);
 	margin-bottom: 60px;
@@ -71,7 +70,6 @@ nav>ul {
   	-webkit-border-radius: 10px;
   	border-radius: 10px;
 	font-family: century gothic, helvetica new, sans-serif;
-	/*font-size: 24px;*/
 	text-shadow: 0 3px 2px rgb(7, 2, 2);
 }
 
@@ -102,17 +100,8 @@ body {
 	font-family: bookman old style, georgia, sans-serif;
 	font-size: 125%;
 	line-height: 1.4em;
-	/*padding: 20px;*/
 	margin: 0;
-	/*background-image: url(../images/songsofthesky2.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-color: black;
-	background-position: center;
-  background-size: cover;
-  position: relative;*/
 	color: rgb(51, 61, 60);
-	/*background-color: rgb(209,66,66);*/
 	background-color: black;
 
 }
@@ -181,7 +170,6 @@ figure {
 	grid-column-end: 5;
 	background-repeat: no-repeat;
 	background-position: bottom;
-  /*background-size: 100% 100%;*/
 	background-size: cover;
 }
 
@@ -310,7 +298,6 @@ p {
 article {
 	background-color: rgb(206, 206, 197);
 	background-color: rgba(206, 206, 197, .9);
-	/*margin: 20px 20%;*/
 	padding: 30px;
 	grid-area: main;
 }
@@ -324,13 +311,7 @@ h1 {
 	color: #eb2a39;
 	font-size: 75px;
 	line-height: 1em;
-	/*text-align: center;*/
 	text-shadow: 3px 3px 0 #472336;
-	/*margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: auto;
-	margin-right: auto;*/
-	/*text-transform: uppercase;*/
 }
 
 h2 {
@@ -442,6 +423,7 @@ footer{
 	.writer, .web-developer, .exquisite-corpse, .about {
 		display: inline-block;
 	}
+
 	header {
 		margin: 10px 10%;
 	  padding: 10px;
@@ -471,16 +453,23 @@ footer{
 	h1 {
 		font-size: 150%;
 	}
+
 	h2 {
 		text-shadow: none;
 		font-size: 120%;
 	}
+
 	h3 {
 		font-size: 100%;
 	}
-	article, footer {
-		margin: 10px 10%;
+
+	article {
+		margin: 10px 10% 40px 10%;
 		padding: 20px;
+	}
+
+	footer {
+		display: none;
 	}
 }
 
