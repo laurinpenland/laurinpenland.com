@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-	<html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Professional website of Laurin Penland, writer and web developer." />
-		<title>Header</title>
-		<link href="styles/stylesheet.css" type="text/css" rel="stylesheet" />
-  <!-- Place your kit's code here -->
-      <script src="https://kit.fontawesome.com/cd97b5836b.js" crossorigin="anonymous"></script>
-	</head>
 <body>
 
 <header>
