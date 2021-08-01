@@ -295,6 +295,12 @@ p {
 	margin: 20px 10%;
 }
 
+.lastLine {
+	border: 3px dashed #42D1D1;
+	border-radius: 3px;
+	padding: 5px;
+}
+
 article {
 	background-color: rgb(206, 206, 197);
 	background-color: rgba(206, 206, 197, .9);

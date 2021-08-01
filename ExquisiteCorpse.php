@@ -102,7 +102,7 @@ add info to database
   <p>Enter the next line of the prose poem, the only rule being that you must repeat one word from the previous line.</p>
 
   <h3>The line that came before:</h3>
-  <p>
+  <p class="lastLine">
     <?php
     try {
       $conn = new PDO(DSN, USERNAME, PASSWORD);
