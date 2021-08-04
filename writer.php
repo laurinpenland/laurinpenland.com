@@ -6,9 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Writer bio and list of publications for Laurin Penland, queer writer from Appalachia." />
 		<title>Laurin Penland</title>
-
-    	<link href="styles/stylesheet.css" type="text/css" rel="stylesheet" />
-
+    <link href="styles/stylesheet.css" type="text/css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap" rel="stylesheet">
 	</head>
 
 
@@ -18,9 +19,8 @@
 		<?php
 			include('includes/header.php');
 		?>
-	<div class="name">
-		<h1>Laurin</h1><br />
-		<h1>Penland</h1>
+	<div class="writer-name name">
+		<h1>Laurin Penland</h1>
 	</div>
 
   <div class="writer-image">
