@@ -206,8 +206,8 @@ figure {
 
 .portfolio-image {
 	width: 90%;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
@@ -216,13 +216,14 @@ figure {
 
 .portfolio-image > figcaption {
 	line-height: 1.5em;
-	text-align: left;
-	margin: 10px 20px;
-	font-size: 14px;
+	/*text-align: left;*/
+	margin: 0 auto;
+	font-size: 16px;
 	width: 90%;
+	font-style: italic;
 }
 
-/*---------------- Form ----------------------------*/
+/*---------------- Form and Fluencies List----------------------------*/
 
 .error {
 	color: #eb2a39;
@@ -287,6 +288,10 @@ button:hover {
 button:active {
 	color:#ffb86b;
 	border-color:#ffb86b;
+}
+
+.fluencies {
+	list-style-type: circle;
 }
 /*------------------ Paragragh, article, headlines ------------------*/
 

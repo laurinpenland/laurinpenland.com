@@ -88,18 +88,18 @@ add info to database
 
   <article class= "article-exquisite-corpse">
     <h2>Let's Build a Poem</h2>
-    <p>Send me a line, and I'll add it to a collective poem. We'll follow the rules of an old parlour game called "Exquisite Corpse," which was invented by surrealists in the 1920s.</p>
+    <p>Send me a line, and I'll add it to a collective poem. We'll follow the rules of an old parlor game called "Exquisite Corpse," which was invented by surrealists in the 1920s.</p>
     <h3>What is an Exquisite Corpse Poem?</h3>
     <p>According to <a href="https://en.wikipedia.org/wiki/Exquisite_corpse"><i>Wikipedia</i></a>:
       <blockquote cite = "https://en.wikipedia.org/wiki/Exquisite_corpse">
-       This technique was invented by surrealists and is similar to an old parlour game called Consequences in which players write in turn on a sheet of paper, fold it to conceal part of the writing, and then pass it to the next player for a further contribution....The name is derived from a phrase that resulted when surrealists first played the game, "Le cadavre exquis boira le vin nouveau. (Translated as: "The exquisite corpse shall drink the new wine.")
+       This technique was invented by surrealists and is similar to an old parlor game called Consequences in which players write in turn on a sheet of paper, fold it to conceal part of the writing, and then pass it to the next player for a further contribution.... The name is derived from a phrase that resulted when surrealists first played the game, "Le cadavre exquis boira le vin nouveau." (Translated as: "The exquisite corpse shall drink the new wine.")
      </blockquote>
    </p>
 
 
 
   <h3>Instructions for you:</h3>
-  <p>Enter the next line of the prose poem, the only rule being that you must repeat one word from the previous line.</p>
+  <p>Enter the next line of the prose poem. The only rule is that you must repeat one word from the previous line, but you may otherwise write what you wish.</p>
 
   <h3>The line that came before:</h3>
   <p class="lastLine">

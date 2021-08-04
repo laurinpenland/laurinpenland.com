@@ -15,3 +15,4 @@ Things I would like to improve:
 9) Make sure all of my images have alt tags.
 10) Finesse background colors so the screen doesn't flash when the page first loads.
 11) Make the homepage match the other pages on mobile screens.
+12) Add contact form.
