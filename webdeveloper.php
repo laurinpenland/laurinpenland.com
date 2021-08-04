@@ -7,6 +7,9 @@
 		<meta name="description" content="Web developer portfolio for Laurin Penland." />
 		<title>Laurin Penland</title>
 		<link href="styles/stylesheet.css" type="text/css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap" rel="stylesheet">
 	</head>
 
 
@@ -17,8 +20,7 @@
 			include('includes/header.php');
 		?>
   <div class="name web-developer-name">
-  <h1>Laurin</h1><br />
-  <h1>Penland</h1>
+  <h1>Laurin Penland</h1>
   </div>
 
 	<div class="web-developer-image">

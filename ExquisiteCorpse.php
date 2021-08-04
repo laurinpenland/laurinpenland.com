@@ -73,6 +73,9 @@ add info to database
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Exquisite corpse poem." />
   <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -81,6 +84,10 @@ add info to database
   	include('includes/header.php');
   ?>
 <div class="exquisite-corpse-image">
+</div>
+
+<div class="exquisite-name name">
+  <h1>Laurin Penland</h1>
 </div>
 
 <!--if the form is empty, or the user hasn't hit submit, display the instructions>-->
