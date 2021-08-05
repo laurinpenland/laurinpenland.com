@@ -27,7 +27,7 @@
 	</div>
 
   <div class ="computer-image">
-    <img src="./images/computer.svg" width="60%"/>
+    <img src="./images/computer.svg" width="40%" alt="retro computer"/>
   </div>
 
 	<article>
@@ -65,7 +65,7 @@
 	<p>For a capstone project in advance scripting and markup, I built a website using the MEAN (MongoDB, Express, Angular, and Node.js) stack. I used Express to create an API, and the site includes reactive forms, behavior subjects, and observables. For the design, I used Bootstrap, Angular Material, and custom CSS. The purpose of the site is to facilitate supply ordering.</p>
 	<p><a href="https://github.com/laurinpenland/archival-supplies">View the repository on Github.</a></p>
 	<figure class="portfolio-image">
-	<a href="https://github.com/laurinpenland/archival-supplies" alt="home page for Archival Supplies website" target="_blank"><img src="./images/mean-stack-website.png" class="portfolio-image"/></a>
+	<a href="https://github.com/laurinpenland/archival-supplies" alt="home page for Archival Supplies website" target="_blank"><img src="./images/mean-stack-website.png" class="portfolio-image" alt="screenshot of archival supplies website"/></a>
 	<figcaption>Website for archival products used by the Rubenstein Library.</figcaption>
 </figure>
 
