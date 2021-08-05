@@ -505,9 +505,7 @@ footer{
 	footer {
 		display: none;
 	}
-}
 
-@media only screen and (max-width: 650px) {
 	figure {
 		display: block;
 		float: none;
@@ -516,6 +514,7 @@ footer{
 		margin-left: none;
 	}
 }
+
 @media only screen and (max-width: 320px) {
 
 		figure {
