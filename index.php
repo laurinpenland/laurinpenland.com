@@ -36,7 +36,10 @@
 
 
 	<footer>
-		<p>Website created by Laurin Penland. The background photograph is a digital image of "Songs from the Sky. No. 2/ Equivalent, Portrait of Georgia, No. 3," by Alfred Stieglitz, courtesy of the <a href="https://www.getty.edu/art/collection/objects/80011/alfred-stieglitz-songs-of-the-sky-no-2-equivalent-portrait-of-georgia-no-3-american-1923/" target="_blank"><i>Getty's Open Content Program</i></a>.
+		<p>Website created by Laurin Penland. <a href="mailto:laurinpenland@laurinpenland.com">Contact Laurin.</a>
+		</p>
+		<p>The background photograph is a digital image of "Songs from the Sky. No. 2/ Equivalent, Portrait of Georgia, No. 3," by Alfred Stieglitz, courtesy of the <a href="https://www.getty.edu/art/collection/objects/80011/alfred-stieglitz-songs-of-the-sky-no-2-equivalent-portrait-of-georgia-no-3-american-1923/" target="_blank"><i>Getty's Open Content Program</i></a>.
+		</p>
 	</footer>
 	</body>
 <body>
