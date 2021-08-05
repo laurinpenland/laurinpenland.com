@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R includes $DEPLOYPATH
+    - /bin/cp -R styles $DEPLOYPATH
+    - /bin/cp ExquisiteCorpse.php $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp v1.3.0_arclight_release_notes.pdf $DEPLOYPATH
+    - /bin/cp webdeveloper.php $DEPLOYPATH
+    - /bin/cp writer.php $DEPLOYPATH
