@@ -177,7 +177,10 @@ add info to database
   }
   ?>
   <footer>
-    <p>Website created by Laurin Penland. The background photograph is a digital image of "Movement of the hand, a hand drawing a circle. Collotype after Eadweard Muybridge, 1887," courtesy of the <a href="https://wellcomecollection.org/works/a3wstquw" target="_blank"><i>Welcome Collection</i></a>.
+    <p>Website created by Laurin Penland. <a href="mailto:laurinpenland@laurinpenland.com">Contact Laurin.</a>
+		</p>
+    <p>The background photograph is a digital image of "Movement of the hand, a hand drawing a circle. Collotype after Eadweard Muybridge, 1887," courtesy of the <a href="https://wellcomecollection.org/works/a3wstquw" target="_blank"><i>Welcome Collection</i></a>.
+    </p>
   </footer>
 </div>
 </body>
