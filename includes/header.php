@@ -8,6 +8,7 @@
 <!-- Top Navigation Menu -->
 <nav>
 	<ul>
+		<li class="logo">Laurin Penland</li>
 		<li><a href="index.php" class="active"><i class="fas fa-home"></i>Home</a></li>
   	<li><a href="writer.php">Writer</a></li>
 		<li><a href="webdeveloper.php">Web Developer</a></li>

@@ -97,6 +97,11 @@ nav>ul>li>a{
 	color: rgba(206, 206, 197, .9);
 }
 
+.logo {
+	display: none;
+	font-family: 'Major Mono Display', monospace;
+	color: rgb(223,57,113);
+}
 /*------------------ Body and grid -----------------*/
 body {
 	font-family: bookman old style, georgia, sans-serif;
@@ -465,6 +470,10 @@ footer{
 
 	.name {
 		display: none;
+	}
+
+	.logo {
+		display: block;
 	}
 
 	.computer-image {
