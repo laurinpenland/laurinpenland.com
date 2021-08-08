@@ -10,3 +10,9 @@ deployment:
     - /bin/cp v1.3.0_arclight_release_notes.pdf $DEPLOYPATH
     - /bin/cp webdeveloper.php $DEPLOYPATH
     - /bin/cp writer.php $DEPLOYPATH
+    - /bin/cp adroid-chrome-192x192.png $DEPLOYPATH
+    - /bin/cp adroid-chrome-512x512.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon.png $DEPLOYPATH
+    - /bin/cp favicon-16x16.png $DEPLOYPATH
+    - /bin/cp favicon-32x32.png $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
