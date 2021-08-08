@@ -7,6 +7,9 @@
 		<meta name="description" content="Website for Laurin Penland, writer and web developer." />
 		<title>Laurin Penland</title>
 		<link href="styles/stylesheet.css" type="text/css" rel="stylesheet" />
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap" rel="stylesheet">
@@ -41,6 +44,5 @@
 		<p>The background photograph is a digital image of "Songs from the Sky. No. 2/ Equivalent, Portrait of Georgia, No. 3," by Alfred Stieglitz, courtesy of the <a href="https://www.getty.edu/art/collection/objects/80011/alfred-stieglitz-songs-of-the-sky-no-2-equivalent-portrait-of-georgia-no-3-american-1923/" target="_blank"><i>Getty's Open Content Program</i></a>.
 		</p>
 	</footer>
-	</body>
-<body>
+</body>
 </html>

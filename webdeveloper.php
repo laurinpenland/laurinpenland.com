@@ -3,10 +3,14 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<title>Web Developer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Web developer portfolio for Laurin Penland." />
 		<title>Laurin Penland</title>
 		<link href="styles/stylesheet.css" type="text/css" rel="stylesheet" />
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap" rel="stylesheet">
@@ -55,7 +59,7 @@
 	<p><a href="https://github.com/laurinpenland/finding-family-duke-archives.io">View the repository on GitHub.</a></p>
 
 
-	<figure class="portfolio-image"></a>
+	<figure class="portfolio-image">
 	<a href= "https://github.com/laurinpenland/finding-family-duke-archives" target="_blank">
 	<img src="./images/FindingFamily.jpg" class="portfolio-image" alt="home page for Finding Family in Duke Archives website"/>
 	</a>
@@ -65,7 +69,9 @@
 	<p>For a capstone project in advance scripting and markup, I built a website using the MEAN (MongoDB, Express, Angular, and Node.js) stack. I used Express to create an API, and the site includes reactive forms, behavior subjects, and observables. For the design, I used Bootstrap, Angular Material, and custom CSS. The purpose of the site is to facilitate supply ordering.</p>
 	<p><a href="https://github.com/laurinpenland/archival-supplies">View the repository on Github.</a></p>
 	<figure class="portfolio-image">
-	<a href="https://github.com/laurinpenland/archival-supplies" alt="home page for Archival Supplies website" target="_blank"><img src="./images/mean-stack-website.png" class="portfolio-image" alt="screenshot of archival supplies website"/></a>
+	<a href="https://github.com/laurinpenland/archival-supplies" target="_blank">
+		<img src="./images/mean-stack-website.png" class="portfolio-image" alt="home page for Archival Supplies website"/>
+	</a>
 	<figcaption>Website for archival products used by the Rubenstein Library.</figcaption>
 </figure>
 
@@ -81,5 +87,5 @@
 	</div>
 	</body>
 
-<body>
+
 </html>
