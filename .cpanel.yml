@@ -11,6 +11,7 @@ deployment:
     - /bin/cp webdeveloper.php $DEPLOYPATH
     - /bin/cp writer.php $DEPLOYPATH
     - /bin/cp android-chrome-192x192.png $DEPLOYPATH
+    - /bin/cp android-chrome-512x512.png $DEPLOYPATH
     - /bin/cp apple-touch-icon.png $DEPLOYPATH
     - /bin/cp favicon-16x16.png $DEPLOYPATH
     - /bin/cp favicon-32x32.png $DEPLOYPATH
