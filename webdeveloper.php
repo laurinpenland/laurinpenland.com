@@ -18,20 +18,12 @@
 
 
 
-	<body>
-	<div  class="web-developer">
+	<body class="web-developer">
 		<?php
 			include('includes/header.php');
 		?>
   <div class="name web-developer-name">
   <h1>Laurin Penland</h1>
-  </div>
-
-	<div class="web-developer-image">
-	</div>
-
-  <div class ="computer-image">
-    <img src="./images/computer.svg" width="40%" alt="retro computer"/>
   </div>
 
 	<article>
@@ -84,7 +76,6 @@
 		<p>The background photograph is an altered digital image of "Equivalents," by Alfred Stieglitz, courtesy of the <a href="http://www.getty.edu/art/collection/objects/62747/alfred-stieglitz-equivalents-american-1924/" target="_blank"><i>Getty's Open Content Program</i></a>.
 		</p>
 	</footer>
-	</div>
 	</body>
 
 

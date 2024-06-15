@@ -25,8 +25,6 @@
 		<h1>Laurin Penland</h1>
 	</div>
 
-	<div class="about-image">
-	</div>
 	<article>
 	<h2 id = "about">About</h2>
 	<figure>

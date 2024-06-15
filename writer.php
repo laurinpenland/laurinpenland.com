@@ -18,8 +18,7 @@
 
 
 
-	<body>
-	<div class = "writer">
+	<body class="writer">
 		<?php
 			include('includes/header.php');
 		?>
@@ -27,9 +26,7 @@
 		<h1>Laurin Penland</h1>
 	</div>
 
-  <div class="writer-image">
-  </div>
-	<article>
+<article>
 	<h2 id = "Writing">Writing</h2>
   <p>My writing is often concerned with Appalachia, queer survival, music, legacies of violence, and the sacredness of beings.</p>
   <p>My fiction, creative nonfiction, and journalism can be found at <i>Hotel Amerika</i>, <i>salt-front: studies in human habit(at)</i>, <i>Palaver</i>, and <i>NPR</i>.</p>
@@ -69,7 +66,6 @@
 		<p>The background photograph is an altered digital image of "Songs from the Sky," by Alfred Stieglitz, courtesy of the <a href="http://www.getty.edu/art/collection/objects/99644/alfred-stieglitz-songs-of-the-sky-american-1924/" target="_blank"><i>Getty's Open Content Program</i></a>.
 		</p>
 	</footer>
-</div>
 	</body>
 
 </html>

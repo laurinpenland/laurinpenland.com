@@ -81,13 +81,10 @@ add info to database
   <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div class="exquisite-corpse">
+<body class="exquisite-corpse">
   <?php
   	include('includes/header.php');
   ?>
-    <div class="exquisite-corpse-image">
-    </div>
 
     <div class="exquisite-name name">
       <h1>Laurin Penland</h1>
@@ -186,7 +183,6 @@ add info to database
       </p>
     </footer>
     
-  </div>
 
   </body>
 
