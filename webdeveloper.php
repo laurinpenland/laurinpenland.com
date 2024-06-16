@@ -73,7 +73,7 @@
 	<footer>
 		<p>Website created by Laurin Penland. <a href="mailto:laurinpenland@laurinpenland.com">Contact Laurin.</a>
 		</p>
-		<p>The background photograph is an altered digital image of "Equivalents," by Alfred Stieglitz, courtesy of the <a href="http://www.getty.edu/art/collection/objects/62747/alfred-stieglitz-equivalents-american-1924/" target="_blank"><i>Getty's Open Content Program</i></a>.
+		<p>The background photograph is an altered digital image of "Equivalents," 1924, by Alfred Stieglitz, courtesy of the <a href="http://www.getty.edu/art/collection/objects/62747/alfred-stieglitz-equivalents-american-1924/" target="_blank"><i>Getty's Open Content Program</i></a>.
 		</p>
 	</footer>
 	</body>

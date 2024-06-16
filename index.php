@@ -15,8 +15,6 @@
 		<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap" rel="stylesheet">
 	</head>
 
-
-
 	<body class="about">
 		<?php
 			include('includes/header.php');
@@ -26,20 +24,20 @@
 	</div>
 
 	<article>
-	<h2 id = "about">About</h2>
-	<figure>
-		<img src="images/LPmetro.jpg" alt="Laurin riding the subway in Tokyo"/>
-		<figcaption>Photo by Rebecca Mendelson.</figcaption>
+		<h2 id = "about">About</h2>
+		<figure>
+			<img src="images/LPmetro.jpg" alt="Laurin riding the subway in Tokyo"/>
+			<figcaption>Photo by Rebecca Mendelson.</figcaption>
 		</figure>
-	<p>Hello! I am a web developer, writer, and memory worker.</p>
-	<p>My work is driven by creativity, curiosity, problem solving, meaning making, and a love for building things out of code.</p>
+		<p>Hello! I am a web developer, writer, and memory worker.</p>
+		<p>My work is driven by creativity, curiosity, problem solving, meaning making, and a love for building things out of code.</p>
 	</article>
 
 
 	<footer>
 		<p>Website created by Laurin Penland. <a href="mailto:laurinpenland@laurinpenland.com">Contact Laurin.</a>
 		</p>
-		<p>The background photograph is a digital image of "Songs from the Sky. No. 2/ Equivalent, Portrait of Georgia, No. 3," by Alfred Stieglitz, courtesy of the <a href="https://www.getty.edu/art/collection/objects/80011/alfred-stieglitz-songs-of-the-sky-no-2-equivalent-portrait-of-georgia-no-3-american-1923/" target="_blank"><i>Getty's Open Content Program</i></a>.
+		<p>The background photograph is a digital image of "Songs from the Sky. No. 2/ Equivalent, Portrait of Georgia, No. 3," 1923, by Alfred Stieglitz, courtesy of the <a href="https://www.getty.edu/art/collection/objects/80011/alfred-stieglitz-songs-of-the-sky-no-2-equivalent-portrait-of-georgia-no-3-american-1923/" target="_blank"><i>Getty's Open Content Program</i></a>.
 		</p>
 	</footer>
 </body>

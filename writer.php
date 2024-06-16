@@ -63,7 +63,7 @@
   <footer>
 		<p>Website created by Laurin Penland. <a href="mailto:laurinpenland@laurinpenland.com">Contact Laurin.</a>
 		</p>
-		<p>The background photograph is an altered digital image of "Songs from the Sky," by Alfred Stieglitz, courtesy of the <a href="http://www.getty.edu/art/collection/objects/99644/alfred-stieglitz-songs-of-the-sky-american-1924/" target="_blank"><i>Getty's Open Content Program</i></a>.
+		<p>The background photograph is a digital image of "Equivalent," 1929 by Alfred Stieglitz, courtesy of the <a href="https://www.getty.edu/art/collection/object/104JC1" target="_blank"><i>Getty's Open Content Program</i></a>.
 		</p>
 	</footer>
 	</body>
