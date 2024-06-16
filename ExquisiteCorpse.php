@@ -176,7 +176,7 @@ add info to database
     <footer>
       <p>Website created by Laurin Penland. <a href="mailto:laurinpenland@laurinpenland.com">Contact Laurin.</a>
   		</p>
-      <p>The background photograph is an altered digital image of "Equivalent," 1930 by Alfred Stieglitz, courtesy of the <a href="https://www.getty.edu/art/collection/object/107PK4" target="_blank"><i>Getty's Open Content Program</i></a>.
+      <p>The background photograph is a digital image of "Equivalent," 1930 by Alfred Stieglitz, courtesy of the <a href="https://www.getty.edu/art/collection/object/107PK4" target="_blank"><i>Getty's Open Content Program</i></a>.
 		  </p>
     </footer>
 
